@@ -1,0 +1,12 @@
+{
+    "name": "rosstsachev/rbd-tools",
+    "description": "Rapid Back-end Development Tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ross Tsachev",
+            "email": "ross102t@gmail.com"
+        }
+    ],
+    "require": {}
+}
