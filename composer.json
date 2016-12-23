@@ -8,5 +8,11 @@
             "email": "ross102t@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/console": "^3.2",
+        "symfony/yaml": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
 }
