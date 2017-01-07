@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b74278d7bd60a734ab5a9303e151d163",
+    "content-hash": "d0efdb7f55685a177cd357766b390619",
     "packages": [
         {
             "name": "psr/log",
@@ -424,6 +424,45 @@
             ],
             "description": "Official version of pdepend to be handled with Composer",
             "time": "2016-11-23T20:25:02+00:00"
+        },
+        {
+            "name": "phpcheckstyle/phpcheckstyle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPCheckstyle/phpcheckstyle.git",
+                "reference": "f20eb13dac3b050aa0c1a049d21169db0499f8e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPCheckstyle/phpcheckstyle/zipball/f20eb13dac3b050aa0c1a049d21169db0499f8e4",
+                "reference": "f20eb13dac3b050aa0c1a049d21169db0499f8e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPCheckstyle\\": "src/"
+                },
+                "files": [
+                    "src/PHPCheckstyle/_Constants.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-2.1"
+            ],
+            "description": "PHPCheckstyle is an open-source tool that helps PHP programmers adhere to certain coding conventions",
+            "homepage": "https://github.com/phpcheckstyle/phpcheckstyle/",
+            "keywords": [
+                "checkstyle",
+                "convention",
+                "standard"
+            ],
+            "time": "2017-01-06T14:56:27+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2077,6 +2116,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "phpcheckstyle/phpcheckstyle": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
